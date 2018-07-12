@@ -8,9 +8,6 @@ from setuptools import setup, find_packages
 
 module_dir = os.path.dirname(__file__)
 
-with codecs.open(os.path.join(module_dir, "README.rst"), encoding="utf8") as f:
-    long_description = f.read()
-
 setup(name="yaaudience",
       version="1.0.0",
       packages=find_packages(exclude=("tests",)),
